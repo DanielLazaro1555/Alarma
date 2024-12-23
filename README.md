@@ -66,6 +66,9 @@ Una aplicación web para configurar alarmas con cuenta regresiva, selección de 
 
 ![Interfaz de la alarma](./Captura%20desde%202024-12-23%2001-59-45.png)
 
+🌐 **¿Quieres probar la aplicación?**
+Haz clic aquí para interactuar con la Alarma Interactiva 👉 [Interactuar con la Alarma](https://alarmainteractivadanielhuaman.netlify.app/)
+
 ---
 
 ## 👨‍💻 **Créditos**
