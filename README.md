@@ -64,7 +64,7 @@ Una aplicación web para configurar alarmas con cuenta regresiva, selección de 
 
 ## 🖼️ **Captura de Pantalla**
 
-![Interfaz de la alarma](https://via.placeholder.com/800x400.png?text=Captura+de+pantalla+de+la+alarma)
+![Interfaz de la alarma](./Captura%20desde%202024-12-23%2001-59-45.png)
 
 ---
 
