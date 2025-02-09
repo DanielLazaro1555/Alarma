@@ -68,7 +68,7 @@ Una aplicación web para configurar alarmas con cuenta regresiva, selección de 
 
 ## 🖼️ **Captura de Pantalla (Beta de Primera Edicion)**
 
-![Interfaz de la alarma anterior](./Captura%20desde%202024-12-23%2001-59-45.png)
+![Interfaz de la alarma anterior](./Capturas/Captura%20desde%202024-12-23%2001-59-45.png)
 
 ## 🖼️ **Captura de Pantalla (Beta de Segunda Edicion - Actual😊)**
 
