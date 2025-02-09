@@ -40,16 +40,21 @@ function formatTime(number) {
   return number.toString().padStart(2, "0");
 }
 
-// Actualizar la hora en pantalla
+// Actualizar la hora en pantalla con icono de sol o luna
 function updateCurrentDateTime() {
   const now = new Date();
-  elements.currentDateTime.textContent = now.toLocaleTimeString("es-ES", {
+  const hour = now.getHours();
+  const isNightTime = hour < 6 || hour >= 18; // Noche antes de 6 AM o después de 6 PM
+  const icon = isNightTime ? "🌙" : "☀️"; // 🌙 Si es de noche, ☀️ si es de día
+
+  elements.currentDateTime.innerHTML = `${icon} ${now.toLocaleTimeString("es-ES", {
     hour: "2-digit",
     minute: "2-digit",
     second: "2-digit",
     hour12: true,
-  });
+  })}`;
 }
+
 setInterval(updateCurrentDateTime, 1000);
 
 // Cuenta regresiva hasta la alarma
