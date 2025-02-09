@@ -72,7 +72,14 @@ Una aplicación web para configurar alarmas con cuenta regresiva, selección de 
 
 ## 🖼️ **Captura de Pantalla (Beta de Segunda Edicion - Actual😊)**
 
-![Interfaz de la alarma anterior](./Captura%20desde%202024-12-23%2001-59-45.png)
+![Interfaz de la alarma actual](./Capturas/Captura%20desde%202025-02-09%2005-08-48.png)
+![Interfaz de la alarma actual](./Capturas/Captura%20desde%202025-02-09%2005-08-54.png)
+![Interfaz de la alarma actual](./Capturas/Captura%20desde%202025-02-09%2005-09-37.png)
+![Interfaz de la alarma actual](./Capturas/Captura%20desde%202025-02-09%2005-09-44.png)
+![Interfaz de la alarma actual](./Capturas/Captura%20desde%202025-02-09%2005-10-07.png)
+![Interfaz de la alarma actual](./Capturas/Captura%20desde%202025-02-09%2005-10-11.png)
+![Interfaz de la alarma actual](./Capturas/Screenshot_2025_02_09_05_11_44_209_com_duckduckgo_mobile_android.jpg)
+![Interfaz de la alarma actual](./Capturas/Screenshot_2025_02_09_05_11_52_496_com_duckduckgo_mobile_android.jpg)
 
 🌐 **¿Quieres probar la aplicación?**
 Haz clic aquí para interactuar con la Alarma Interactiva 👉 [Interactuar con la Alarma](https://alarmainteractivadanielhuaman.netlify.app/)
