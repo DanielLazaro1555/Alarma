@@ -17,9 +17,9 @@ let audio = new Audio();
 
 // Sonidos disponibles
 window.sounds = {
-  Tropical: "Alarma1.flac",
-  "Phone Anime": "Alarma2.flac",
-  "Majestic Voyage": "Alarma3.flac",
+  Tropical: "./Audios/Alarma1.flac",
+  "Phone Anime": "./Audios/Alarma2.flac",
+  "Majestic Voyage": "./Audios/Alarma3.flac",
 };
 
 // Llenar opciones de sonido en el select
@@ -47,12 +47,15 @@ function updateCurrentDateTime() {
   const isNightTime = hour < 6 || hour >= 18; // Noche antes de 6 AM o después de 6 PM
   const icon = isNightTime ? "🌙" : "☀️"; // 🌙 Si es de noche, ☀️ si es de día
 
-  elements.currentDateTime.innerHTML = `${icon} ${now.toLocaleTimeString("es-ES", {
-    hour: "2-digit",
-    minute: "2-digit",
-    second: "2-digit",
-    hour12: true,
-  })}`;
+  elements.currentDateTime.innerHTML = `${icon} ${now.toLocaleTimeString(
+    "es-ES",
+    {
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hour12: true,
+    }
+  )}`;
 }
 
 setInterval(updateCurrentDateTime, 1000);
